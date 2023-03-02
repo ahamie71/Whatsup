@@ -1,0 +1,142 @@
+{
+    "sourceFile": "src/Controllers/homepageController.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1675266119790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675266173425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+<?php \n+function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266179184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php \n-function\n\\ No newline at end of file\n+function homepage()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266265385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,6 @@\n <?php \n-function homepage()\n\\ No newline at end of file\n+function homepage(){\n+\n+    \n+\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266510949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n <?php \n function homepage(){\n \n-    \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266654796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <?php \n function homepage(){\n \n-\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266660514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <?php \n function homepage(){\n \n-    \n+     require\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266670390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <?php \n function homepage(){\n \n-     require\n+    require_once(dirname(__FILE__, 3) . '/templates/homepage.php');\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675266727441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <?php \n function homepage(){\n \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.php');\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1675266835008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n <?php \n function homepage(){\n-\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.php');\n }\n"
+                },
+                {
+                    "date": 1675267167853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n <?php \n function homepage(){\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.php');\n }\n"
+                },
+                {
+                    "date": 1675267210685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php \n function homepage(){\n-    \n-    require_once(dirname(__FILE__, 3) . '/templates/homepage.php');\n+\n+\n+    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                },
+                {
+                    "date": 1675267321583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n <?php \n function homepage(){\n \n-\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                },
+                {
+                    "date": 1675267377929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n <?php \n function homepage(){\n \n+\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n+    \n }\n"
+                },
+                {
+                    "date": 1675267688209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n+       \n+    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n-    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n-    \n }\n"
+                },
+                {
+                    "date": 1675326513389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n-       \n+    \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675326520041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n-    \n+    require_once\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675326529806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n-    require_once\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n+    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675326535975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n+    require_once(dirname(__FILE__, 3) . '/templates/nav.phtml');\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n-    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675329160844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n function homepage(){\n \n-    require_once(dirname(__FILE__, 3) . '/templates/nav.phtml');\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675331003109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php \n+\n function homepage(){\n \n     \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n"
+                },
+                {
+                    "date": 1675331008446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php \n-\n+echo\"homepage\n function homepage(){\n \n     \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n"
+                },
+                {
+                    "date": 1675331438572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-<?php \n-echo\"homepage\n+<?php\n+\n function homepage(){\n \n     \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n"
+                },
+                {
+                    "date": 1675332495264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<?php\n+<?php \n \n function homepage(){\n \n     \n"
+                },
+                {
+                    "date": 1675338048319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n <?php \n \n function homepage(){\n \n-    \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675347122920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n \n function homepage(){\n-\n+      \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675347128532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php \n \n function homepage(){\n-      \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n+    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675436515270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n <?php \n \n function homepage(){\n+    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n-    require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n-\n }\n"
+                },
+                {
+                    "date": 1676453980177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php \n \n function homepage(){\n-    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                },
+                {
+                    "date": 1676454099038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php \n \n function homepage(){\n-    \n+    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                },
+                {
+                    "date": 1677505619588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php \n-\n+session\n function homepage(){\n     require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                },
+                {
+                    "date": 1677573990257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php \n-session\n-function homepage(){\n+session_start();\n+function omepage(){\n     require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n     require_once(dirname(__FILE__, 3) . '/templates/homepage.phtml');\n }\n"
+                }
+            ],
+            "date": 1675266119790,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

@@ -1,0 +1,238 @@
+{
+    "sourceFile": "templates/navbar.phtml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 55,
+            "patches": [
+                {
+                    "date": 1675346998757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675347006769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,17 +38,11 @@\n \n             ?>\n \n \n-            <?php\n-\n-            if(isset($_SESSION['user']) && $_SESSION['user']['role'] == 'admin') {\n-\n-              echo '<a class=\"nav-link\" href=\"./view/admin.phtml\">Admin</a>';\n-            }\n-             ?>\n            \n            \n+           \n \n             \n \n             \n"
+                },
+                {
+                    "date": 1675347013140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n             <?php\n             } else {\n             ?>\n-            <a class=\"nav-link\" href=\"deconnection.php\">Deconnection</a>\n+            \n             <a class=\"nav-link\" href=\"./view/profile.phtml\">Profile</a>\n             <?php\n \n             }\n"
+                },
+                {
+                    "date": 1675347021127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,22 +21,17 @@\n             <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n           </li>\n           <div class=\"navbar-nav\">\n             <?php\n-            if (!isset($_SESSION['user'])) {\n-            ?>\n+           \n             <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n             <?php\n-            } else {\n-            ?>\n+        \n+\n             \n-            <a class=\"nav-link\" href=\"./view/profile.phtml\">Profile</a>\n-            <?php\n \n-            }\n \n-\n             ?>\n \n \n            \n"
+                },
+                {
+                    "date": 1675347026300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,13 +20,13 @@\n           <li class=\"nav-item\">\n             <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n           </li>\n           <div class=\"navbar-nav\">\n-            <?php\n+            \n            \n             <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n-            <?php\n+            \n         \n \n             \n \n"
+                },
+                {
+                    "date": 1675347035070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,26 +24,11 @@\n             \n            \n             <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n-            \n         \n \n-            \n \n-\n-            ?>\n-\n-\n-           \n-           \n-           \n-\n-            \n-\n-            \n-\n-\n           </div>\n \n         </ul>\n         </li>\n"
+                },
+                {
+                    "date": 1675347042681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,13 +20,10 @@\n           <li class=\"nav-item\">\n             <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n           </li>\n           <div class=\"navbar-nav\">\n-            \n-           \n             <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n-        \n \n \n           </div>\n \n"
+                },
+                {
+                    "date": 1675347049175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           <li class=\"nav-item\">\n             <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n           </li>\n           <div class=\"navbar-nav\">\n-            <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n+            <a class=\"nav-link\" href=\"\">Inscription</a>\n             <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n \n \n           </div>\n"
+                },
+                {
+                    "date": 1675347065100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,13 +17,13 @@\n       </button>\n       <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n         <ul class=\"navbar-nav\">\n           <li class=\"nav-item\">\n-            <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n+            <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n           </li>\n           <div class=\"navbar-nav\">\n             <a class=\"nav-link\" href=\"\">Inscription</a>\n-            <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n+            <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n           </div>\n \n"
+                },
+                {
+                    "date": 1675350790155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,42 +1,44 @@\n <!doctype html>\n <html lang=\"en\">\n+\n <head>\n-  <meta charset=\"utf-8\">\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n-  <title></title>\n-  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\n-    integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n+    <meta charset=\"utf-8\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n+    <title></title>\n+    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\n+        integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n </head>\n-    <body>\n-  <nav class=\"navbar navbar-expand-lg bg-light\">\n-    <div class=\"container-fluid\">\n-      <a class=\"navbar-brand\" href=\"#\">AFTER?</a>\n-      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNavDropdown\"\n-        aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n-        <span class=\"navbar-toggler-icon\"></span>\n-      </button>\n-      <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n-        <ul class=\"navbar-nav\">\n-          <li class=\"nav-item\">\n-            <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n-          </li>\n-          <div class=\"navbar-nav\">\n-            <a class=\"nav-link\" href=\"\">Inscription</a>\n-            <a class=\"nav-link\" href=\"\">Connection</a>\n \n+<body>\n+    <nav class=\"navbar navbar-expand-lg bg-light\">\n+        <div class=\"container-fluid\">\n+            <a class=\"navbar-brand\" href=\"#\">AFTER?</a>\n+            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNavDropdown\"\n+                aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n+                <span class=\"navbar-toggler-icon\"></span>\n+            </button>\n+            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n+                <ul class=\"navbar-nav\">\n+                    <li class=\"nav-item\">\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n+                    </li>\n+                    <div class=\"navbar-nav\">\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Connection</a>\n \n-          </div>\n \n-        </ul>\n-        </li>\n-        </ul>\n-      </div>\n-    </div>\n-  </nav>\n-  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js\"\n-    integrity=\"sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4\"\n-    crossorigin=\"anonymous\"></script>\n+                    </div>\n \n-          </body>\n+                </ul>\n+                </li>\n+                </ul>\n+            </div>\n+        </div>\n+    </nav>\n+    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js\"\n+        integrity=\"sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4\"\n+        crossorigin=\"anonymous\"></script>\n \n+</body>\n+\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675953431189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\".\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953443567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\".\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953453142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953458564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953627681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953632973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953639048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=registration\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953685396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action=registration\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953692777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"template\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953698116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"template\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"template.display\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953707094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"template.display\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"template/registration\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953731564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"template/registration\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953767176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675953772669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954234906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954262135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"tep\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954268773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"tep\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"templates/\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954276200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"templates/\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"templates/registr\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954282569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"templates/registr\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675954920385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1675955061098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n                         <a class=\"nav-link\" href=\"\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676021053962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n-                        <a class=\"nav-link\" href=\"\">Connection</a>\n+                        <a class=\"nav-link\" href=\"templates\">Connection</a>\n \n \n                     </div>\n \n"
+                },
+                {
+                    "date": 1676021059936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n-                        <a class=\"nav-link\" href=\"templates\">Connection</a>\n+                        <a class=\"nav-link\" href=\"templates/\">Connection</a>\n \n \n                     </div>\n \n"
+                },
+                {
+                    "date": 1676021065004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n-                        <a class=\"nav-link\" href=\"templates/\">Connection</a>\n+                        <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n \n \n                     </div>\n \n"
+                },
+                {
+                    "date": 1676451750592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"templates/registration.phtml\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"\">Inscription</a>\n                         <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676451756470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n                         <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676451761928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action\">Inscription</a>\n                         <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676451767872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676451928437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n-                        <a class=\"nav-link\" href=\"templates/login.phtml\">Connection</a>\n+                        <a class=\"nav-link\" href=\"index\">Connection</a>\n \n \n                     </div>\n \n"
+                },
+                {
+                    "date": 1676451934898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n-                        <a class=\"nav-link\" href=\"index\">Connection</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n \n                     </div>\n \n"
+                },
+                {
+                    "date": 1676451995696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676452002356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n-                        <a class=\"nav-link\" href=\"index.php?action=\">Inscription</a>\n+                        <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n \n                     </div>\n"
+                },
+                {
+                    "date": 1676454033049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454039387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454045874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php?\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454052616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php?\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php?action=home\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454817637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php?action=home\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454878360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=\"index.php\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href=>Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676454883672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href=>Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href \"#\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676455728788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href \"#\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href =\"index\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676455734708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href =\"index\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=\">Home</a>\n                     </li>\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n"
+                },
+                {
+                    "date": 1676471312658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,11 @@\n             </button>\n             <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n-                        <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=\">Home</a>\n+                        <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=home\">Home</a>\n                     </li>\n+                    \n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n"
+                },
+                {
+                    "date": 1676471320327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n                 <ul class=\"navbar-nav\">\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=home\">Home</a>\n                     </li>\n-                    \n+                    <?php\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n"
+                },
+                {
+                    "date": 1676471330022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=home\">Home</a>\n                     </li>\n                     <?php\n+                    if()\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n"
+                },
+                {
+                    "date": 1676471338582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=home\">Home</a>\n                     </li>\n                     <?php\n-                    if()\n+                    if(!isset($_SESSION ))\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n"
+                },
+                {
+                    "date": 1676471343773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                     <li class=\"nav-item\">\n                         <a class=\"nav-link active\" aria-current=\"page\" href =\"index.php?action=home\">Home</a>\n                     </li>\n                     <?php\n-                    if(!isset($_SESSION[\"user\"]))\n+                    if(!isset($_SESSION[\"user]))\n                     <div class=\"navbar-nav\">\n                         <a class=\"nav-link\" href=\"index.php?action=register\">Inscription</a>\n                         <a class=\"nav-link\" href=\"index.php?action=connect\">Connection</a>\n \n"
+                }
+            ],
+            "date": 1675346998757,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title></title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\n    integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n</head>\n    <body>\n  <nav class=\"navbar navbar-expand-lg bg-light\">\n    <div class=\"container-fluid\">\n      <a class=\"navbar-brand\" href=\"#\">AFTER?</a>\n      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNavDropdown\"\n        aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n        <ul class=\"navbar-nav\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link active\" aria-current=\"page\" href=\"view/home.phtml\">Home</a>\n          </li>\n          <div class=\"navbar-nav\">\n            <?php\n            if (!isset($_SESSION['user'])) {\n            ?>\n            <a class=\"nav-link\" href=\"./../inscription.php\">Inscription</a>\n            <a class=\"nav-link\" href=\"view/connection.phtml\">Connection</a>\n            <?php\n            } else {\n            ?>\n            <a class=\"nav-link\" href=\"deconnection.php\">Deconnection</a>\n            <a class=\"nav-link\" href=\"./view/profile.phtml\">Profile</a>\n            <?php\n\n            }\n\n\n            ?>\n\n\n            <?php\n\n            if(isset($_SESSION['user']) && $_SESSION['user']['role'] == 'admin') {\n\n              echo '<a class=\"nav-link\" href=\"./view/admin.phtml\">Admin</a>';\n            }\n             ?>\n           \n           \n\n            \n\n            \n\n\n          </div>\n\n        </ul>\n        </li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js\"\n    integrity=\"sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4\"\n    crossorigin=\"anonymous\"></script>\n\n          </body>\n\n</html>"
+        }
+    ]
+}

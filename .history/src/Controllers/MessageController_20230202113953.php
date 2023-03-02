@@ -1,0 +1,12 @@
+<?php
+ 
+ 
+ function getMessages(){
+
+    $msgs
+ }
+
+
+
+
+    

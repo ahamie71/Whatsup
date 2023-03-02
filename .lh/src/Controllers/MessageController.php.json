@@ -1,0 +1,1134 @@
+{
+    "sourceFile": "src/Controllers/MessageController.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 279,
+            "patches": [
+                {
+                    "date": 1675326982656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675326988104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessage()\n {\n-     = getMessage();\n+    retur = getMessage();\n }\n"
+                },
+                {
+                    "date": 1675326999582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessage()\n {\n-    retur = getMessage();\n+     = getMessage();\n }\n"
+                },
+                {
+                    "date": 1675327712483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessage()\n {\n-     = getMessage();\n+    $msg  = getMessage();\n }\n"
+                },
+                {
+                    "date": 1675327889396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-function getMessage()\n+function getMessages()\n {\n     $msg  = getMessage();\n }\n"
+                },
+                {
+                    "date": 1675327897170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessages()\n {\n-    $msg  = getMessage();\n+    $msg = getMessages();\n }\n"
+                },
+                {
+                    "date": 1675328141384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessages()\n {\n-    $msg = getMessages();\n+    \n }\n"
+                },
+                {
+                    "date": 1675328210035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-function getMessages()\n-{\n+\n     \n }\n"
+                },
+                {
+                    "date": 1675328605264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n+\n     \n-}\n"
+                },
+                {
+                    "date": 1675328619228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n+function\n \n \n     \n"
+                },
+                {
+                    "date": 1675328627217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-function\n+function getMessage()\n \n \n     \n"
+                },
+                {
+                    "date": 1675328633796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-function getMessage()\n+function getMessages(){\n \n+    \n+}\n \n+\n     \n"
+                },
+                {
+                    "date": 1675328640329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessages(){\n \n-    \n+    $msgs\n }\n \n \n     \n"
+                },
+                {
+                    "date": 1675328648065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n function getMessages(){\n \n-    $msgs\n+    $msgs= get\n }\n \n \n     \n"
+                },
+                {
+                    "date": 1675328668599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-function getMessages(){\n \n-    $msgs= get\n-}\n-\n-\n     \n"
+                },
+                {
+                    "date": 1675329786527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675329798211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675329804454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329815262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_once(dirname(__FILE__,3).'/templates/message.php');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329823773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/message.php');\n+require_once(dirname(__FILE__,3).'/templates/disp.php');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329831363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/disp.php');\n+require_once(dirname(__FILE__,3).'/templates/display.');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329836881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/display.');\n+require_once(dirname(__FILE__,3).'/templates/displayMessage.');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329842960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/displayMessage.');\n+require_once(dirname(__FILE__,3).'/templates/displayMessage');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675329866137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n-require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/displayMessage');\n \n+require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675329893108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-\n+require_once(dirname(__FILE__,3).'/Model/message.php');\n require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n"
+                },
+                {
+                    "date": 1675329990919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330000368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_once(dirname(__FILE__,3).'/Model/message.php');require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330049199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n <?php\n-require_once(dirname(__FILE__,3).'/Model/message.php');require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n-\n-\n-\n     \n"
+                },
+                {
+                    "date": 1675330085759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n+get\n \n+\n     \n"
+                },
+                {
+                    "date": 1675330092083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-get\n+getMessages();\n \n \n     \n"
+                },
+                {
+                    "date": 1675330103300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-getMessages();\n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330109546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n+$msgs \n \n \n-\n     \n"
+                },
+                {
+                    "date": 1675330114975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-$msgs \n+$msgs = get\n \n \n     \n"
+                },
+                {
+                    "date": 1675330120510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-$msgs = get\n+$msgs = getMessages();\n \n \n     \n"
+                },
+                {
+                    "date": 1675330134558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-$msgs = getMessages();\n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330275506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n+$msgs = getMessages();\n \n \n-\n     \n"
+                },
+                {
+                    "date": 1675330281076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-$msgs = getMessages();\n \n-\n     \n"
+                },
+                {
+                    "date": 1675330289780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n+$msg\n \n \n     \n"
+                },
+                {
+                    "date": 1675330441452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-$msg\n \n \n+\n+\n     \n"
+                },
+                {
+                    "date": 1675330449191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_\n \n \n \n-\n     \n"
+                },
+                {
+                    "date": 1675330458568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_\n+require_once(dirname(__FILE__,3).'/Model/message.php');\n \n \n \n     \n"
+                },
+                {
+                    "date": 1675330464329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/Model/message.php');\n+require_once(dirname(__FILE__,3).'/templates/message.php');\n \n \n \n     \n"
+                },
+                {
+                    "date": 1675330470341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/message.php');\n+require_once(dirname(__FILE__,3).'/templates/display.php');\n \n \n \n     \n"
+                },
+                {
+                    "date": 1675330476942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/display.php');\n+require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n     \n"
+                },
+                {
+                    "date": 1675330667668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330677531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n-require_once(dirname(__FILE__,3).'/templates/displayMessage.phtml');\n \n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330817379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n+getMess\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330830543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-getMess\n+getMessages();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330902410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-getMessages();\n+getMessages()\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330914246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,3).'/Model/message.php');\n \n-getMessages()\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330922939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <?php\n+ \n+ function\n \n \n \n \n-\n     \n"
+                },
+                {
+                    "date": 1675330929754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  \n- function\n+ function getMessages()\n \n \n \n \n"
+                },
+                {
+                    "date": 1675330935077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,11 @@\n <?php\n  \n- function getMessages()\n+ function getMessages(){\n \n+    \n+ }\n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675330940955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n  function getMessages(){\n \n-    \n+    echo \"\"\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675330949075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n  function getMessages(){\n \n-    echo \"\"\n+    echo \"je suis bien dans le cntroller messafe\"\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675330973432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <?php\n  \n+ ec\n  function getMessages(){\n \n-    echo \"je suis bien dans le cntroller messafe\"\n+    echo \"je suis bien dans le cntroller messagen\";\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675330979995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  \n- ec\n+ echo\" coucou\";\n  function getMessages(){\n \n     echo \"je suis bien dans le cntroller messagen\";\n  }\n"
+                },
+                {
+                    "date": 1675331431502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  \n- echo\" coucou\";\n+ \n  function getMessages(){\n \n     echo \"je suis bien dans le cntroller messagen\";\n  }\n"
+                },
+                {
+                    "date": 1675334384992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n  \n  \n  function getMessages(){\n \n-    echo \"je suis bien dans le cntroller messagen\";\n+    echo \"je suis bien dans le cntroller message\";\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334393752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n  \n  \n  function getMessages(){\n \n-    echo \"je suis bien dans le cntroller message\";\n+    $msgs\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334411510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n <?php\n  \n- \n  function getMessages(){\n \n-    $msgs\n+    $msgs= getMessages();\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334417176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n <?php\n- \n  function getMessages(){\n-\n     $msgs= getMessages();\n  }\n \n \n"
+                },
+                {
+                    "date": 1675334425964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  function getMessages(){\n-    $msgs= getMessages();\n+    ();\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334445195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  function getMessages(){\n-    ();\n+    $msg\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334452127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  function getMessages(){\n-    $msg\n+    $msgs = G\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334459886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  function getMessages(){\n-    $msgs = G\n+    $msgs = getMessages\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334521731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <?php\n  function getMessages(){\n-    $msgs = getMessages\n+    \n+    $msgs = getMessages();\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334526900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n-    \n-    $msgs = getMessages();\n+\n+    $msg = getMessages();\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334542988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msg = getMessages();\n+     \n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675334554261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n  function getMessages(){\n-\n+      \n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334691552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <?php\n  function getMessages(){\n       \n+    $msg\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334700722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n-      \n-    $msg\n+\n+    $msgs = getMessages();\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334733189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msgs = getMessages();\n+    $msgs = ();\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334740399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msgs = ();\n+   \n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334815098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-   \n+    \n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334820659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    \n+    $msg\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334830255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msg\n+    $msgs= 'tca'\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334837281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msgs= 'tca'\n+    $msgs = 'tchat';\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675334891258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $msgs = 'tchat';\n+   \n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675335085316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-   \n+   $\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675335091910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-   $\n+   $messges = \n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675335101506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-   $messges = \n+   $messges = getMessages\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675335106760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-   $messges = getMessages\n+    $messges = getMessages();\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675335193284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n  function getMessages(){\n \n-    $messges = getMessages();\n+    $messages = getMessages();\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675336105429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n <?php\n  function getMessages(){\n \n-    $messages = getMessages();\n      \n  }\n \n \n"
+                },
+                {
+                    "date": 1675336119940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n+require\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336125618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require\n+require_once(di)\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336135056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(di)\n+require_once(dirname(__FILE__) .Model)\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336141899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__) .Model)\n+require_once(dirname(__FILE__) .'Model/mes)\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336156748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__) .'Model/mes)\n+require_once(dirname(__FILE__,2) .'Model/message.php');\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336162802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2) .'Model/message.php');\n+require_once(dirname(__FILE__,2) .'/Model/message.php');\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336170422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2) .'/Model/message.php');\n+require_once(dirname(__FILE__,3) .'/Model/message.php');\n  function getMessages(){\n \n      \n  }\n"
+                },
+                {
+                    "date": 1675336180036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n+\n require_once(dirname(__FILE__,3) .'/Model/message.php');\n  function getMessages(){\n \n      \n"
+                },
+                {
+                    "date": 1675336192328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n require_once(dirname(__FILE__,3) .'/Model/message.php');\n  function getMessages(){\n \n-     \n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1675336207654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n <?php\n \n-require_once(dirname(__FILE__,3) .'/Model/message.php');\n+\n  function getMessages(){\n \n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n- }\n+    \n \n \n \n \n"
+                },
+                {
+                    "date": 1675336219184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n <?php\n \n-\n+require_once(dirname(__FILE__,3) .'/Model/message.php');\n  function getMessages(){\n \n-    \n+ }\n \n \n \n \n"
+                },
+                {
+                    "date": 1675336296231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,8 @@\n <?php\n \n require_once(dirname(__FILE__,3) .'/Model/message.php');\n- function getMessages(){\n+ \n \n- }\n \n \n-\n-\n     \n"
+                },
+                {
+                    "date": 1675336446830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n  \n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675336454661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <?php\n \n require_once(dirname(__FILE__,3) .'/Model/message.php');\n  \n+function message()\n \n \n \n \n"
+                },
+                {
+                    "date": 1675336464147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,13 @@\n <?php\n \n require_once(dirname(__FILE__,3) .'/Model/message.php');\n  \n-function message()\n+function message(){\n \n+    $message\n+}\n \n \n \n+\n     \n"
+                },
+                {
+                    "date": 1675336472451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n require_once(dirname(__FILE__,3) .'/Model/message.php');\n  \n function message(){\n \n-    $message\n+    $message = getMessages();\n }\n \n \n \n"
+                },
+                {
+                    "date": 1675336492449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n  \n function message(){\n \n     $message = getMessages();\n+    require\n }\n \n \n \n"
+                },
+                {
+                    "date": 1675336501728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,9 @@\n  \n function message(){\n \n     $message = getMessages();\n-    require\n-}\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n \n \n \n"
+                },
+                {
+                    "date": 1675336511344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n <?php\n \n require_once(dirname(__FILE__,3) .'/Model/message.php');\n- \n-function message(){\n \n+function message()\n+{\n+\n     $message = getMessages();\n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+    require_once(dirname(__FILE__, 3) . '/templates/message.php');\n \n+}\n \n \n-\n     \n"
+                },
+                {
+                    "date": 1675336519542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n function message()\n {\n \n     $message = getMessages();\n-    require_once(dirname(__FILE__, 3) . '/templates/message.php');\n+    require_once(dirname(__FILE__, 3) . '/templates/displaymessage.php');\n \n }\n \n \n"
+                },
+                {
+                    "date": 1675336526623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n function message()\n {\n \n     $message = getMessages();\n-    require_once(dirname(__FILE__, 3) . '/templates/displaymessage.php');\n+    require_once(dirname(__FILE__, 3) . '/templates/displayMessage.php');\n \n }\n \n \n"
+                },
+                {
+                    "date": 1675336544210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,11 @@\n require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n function message()\n {\n+  $message = getMessages();\n+    require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n-    $message = getMessages();\n-    require_once(dirname(__FILE__, 3) . '/templates/displayMessage.php');\n-\n }\n \n \n     \n"
+                },
+                {
+                    "date": 1675336550124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n <?php\n \n-require_once(dirname(__FILE__,3) .'/Model/message.php');\n-\n function message()\n {\n+    \n   $message = getMessages();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675336555546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <?php\n \n+require_once(dirname(__FILE__,3) .'/Model/message.php');\n+\n function message()\n {\n-    \n   $message = getMessages();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675336640107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n <?php\n \n-require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n+\n function message()\n {\n-  $message = getMessages();\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+ \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336662405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n \n \n \n-function message()\n+function getmessage()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n  \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n"
+                },
+                {
+                    "date": 1675336682365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n <?php\n \n \n-\n-function getmessage()\n+function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n  \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n"
+                },
+                {
+                    "date": 1675336710695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n <?php\n \n-\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n- \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336722463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n \n function getMessages()\n {\n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+  \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336736518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n \n function getMessages()\n {\n-  \n+    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336746733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n \n function getMessages()\n {\n-    \n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336757677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n \n function getMessages()\n {\n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336783705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-\n+   \n function getMessages()\n {\n \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n"
+                },
+                {
+                    "date": 1675336915143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n    \n function getMessages()\n {\n-\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336946316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n-   \n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n function getMessages()\n {\n-    \n+\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336951776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n function getMessages()\n {\n-\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675336998578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n-function getMessages()\n+ \n+function getMe()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675337055053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <?php\n  \n-function getMe()\n+function getMessages()\n {\n+    \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337066244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    \n+    $\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337076091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    $\n+    $messages\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337081940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    $messages\n+    $messages= get\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337087693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    $messages= get\n+    $messages = getMessage();\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337116109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    $messages = getMessage();\n+    $messages = getMessag();\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337152386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    $messages = getMessag();\n+    $messages = getMsg();\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675337202028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n  \n function getMessages()\n {\n     $messages = getMsg();\n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675338212508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n <?php\n  \n function getMessages()\n {\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    \n+    var_dump($messages);\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675342921831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    var_dump($messages);\n+    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675343511000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    \n+    var_dump($messages);\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675343529505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    var_dump($messages);\n+   \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675344091088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n+    var\n    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675344096980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    var\n+    var_dump($messages)\n    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675345317869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function getMessages()\n {\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    var_dump($messages)\n+    \n    \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n"
+                },
+                {
+                    "date": 1675347261408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,11 @@\n <?php\n  \n function getMessages()\n {\n+    \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n-    \n-   \n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n"
+                },
+                {
+                    "date": 1675348468567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n <?php\n  \n function getMessages()\n {\n-    \n+\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n-\n+function \n     \n"
+                },
+                {
+                    "date": 1675348477005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n-function \n+function remove\n     \n"
+                },
+                {
+                    "date": 1675348483418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n-function remove\n+function \n     \n"
+                },
+                {
+                    "date": 1675348491695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,9 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n \n-function \n+function EditMessage(){\n+\n     \n+}\n+    \n"
+                },
+                {
+                    "date": 1675348502235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-\n function EditMessage(){\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n-    \n+\n }\n     \n"
+                },
+                {
+                    "date": 1675348755641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,10 @@\n \n }\n function EditMessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n+    \n \n \n+\n }\n     \n"
+                },
+                {
+                    "date": 1675348801552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function EditMessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n-    \n+       \n \n \n \n }\n"
+                },
+                {
+                    "date": 1675348819730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function EditMessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n-       \n+                \n \n \n \n }\n"
+                },
+                {
+                    "date": 1675348825912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function EditMessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n-                \n+          \n \n \n \n }\n"
+                },
+                {
+                    "date": 1675350087860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function EditMessage(){\n+function E(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n           \n \n \n"
+                },
+                {
+                    "date": 1675350099622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function E(){\n+function ajouter(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n           \n \n \n"
+                },
+                {
+                    "date": 1675350105782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function ajouter(){\n+function Add(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n           \n \n \n"
+                },
+                {
+                    "date": 1675350113111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function Add(){\n+function addmessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n           \n \n \n"
+                },
+                {
+                    "date": 1675350118862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n \n }\n function addmessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n+    \n           \n \n \n \n"
+                },
+                {
+                    "date": 1675350161714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n \n }\n function addmessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n+\n     \n+\n           \n \n \n \n"
+                },
+                {
+                    "date": 1675350173358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n function addmessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n-    \n+    if(isset)\n \n           \n \n \n"
+                },
+                {
+                    "date": 1675350193065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n function addmessage(){\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n-    if(isset)\n+    if(isset())\n \n           \n \n \n"
+                },
+                {
+                    "date": 1675350244300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,12 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n function addmessage(){\n+    \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n-    if(isset())\n+    \n \n           \n \n \n"
+                },
+                {
+                    "date": 1675350268639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n function addmessage(){\n-    \n+    if \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n     \n \n"
+                },
+                {
+                    "date": 1675350275717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n function addmessage(){\n-    if \n+\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n \n     \n \n"
+                },
+                {
+                    "date": 1675350613527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-\n+     \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675350629257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-     \n+                                    ffffffffffff\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675350636870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-                                    ffffffffffff\n+                                    \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675412543080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-                                    \n+    require                         \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675412550960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    require                         \n+    require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');                     \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675412556935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <?php\n  \n function getMessages()\n {\n-    require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');                     \n+    require_once(dirname(__FILE__, 3) . '/templates/di.phtml');                     \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n"
+                },
+                {
+                    "date": 1675415992735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,19 @@\n <?php\n  \n function getMessages()\n {\n-    require_once(dirname(__FILE__, 3) . '/templates/di.phtml');                     \n+    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');                     \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n function addmessage(){\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n-\n     \n+    \n \n           \n \n \n"
+                },
+                {
+                    "date": 1675416745916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage(){\n \n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+   uire_once(dirname(__FILE__,3) .'/Model/message.php'); req\n     \n     \n \n           \n"
+                },
+                {
+                    "date": 1675417095589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,13 @@\n \n }\n function addmessage(){\n \n-   uire_once(dirname(__FILE__,3) .'/Model/message.php'); req\n+    require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     \n \n+    \n           \n \n \n \n"
+                },
+                {
+                    "date": 1675417118415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,11 @@\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     \n+    \n \n-    \n+\n           \n \n \n \n"
+                },
+                {
+                    "date": 1675417124228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,10 @@\n function addmessage(){\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n+    $content= \n     \n-    \n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417130064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n function addmessage(){\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n-    $content= \n+    $content= $_Po\n     \n \n \n           \n"
+                },
+                {
+                    "date": 1675417135534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,11 @@\n function addmessage(){\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n-    $content= $_Po\n+    $content= $_POST['content'];\n     \n+    \n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417142007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    \n+    i\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417147155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    i\n+    if()\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417153305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if()\n+    if(isse)\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417170434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isse)\n+    if(isset())\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417175753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isset())\n+    if(isset($[content['))\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417180983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isset($[content['))\n+    if(isset($_POSTcontent['))\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417187340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isset($_POSTcontent['))\n+    if(isset($_POST[content'))\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417193465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isset($_POST[content'))\n+    if(isset($_POST['content']))\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417203985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n     $content= $_POST['content'];\n     \n-    if(isset($_POST['content']))\n+    if(isset($_POST['content']){\n+        \n+    }\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417209335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,10 @@\n     \n     $content= $_POST['content'];\n     \n     if(isset($_POST['content']){\n-        \n+\n+        $\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417216997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     $content= $_POST['content'];\n     \n     if(isset($_POST['content']){\n \n-        $\n+        $post\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417223146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     $content= $_POST['content'];\n     \n     if(isset($_POST['content']){\n \n-        $post\n+        $p\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417230493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     $content= $_POST['content'];\n     \n     if(isset($_POST['content']){\n \n-        $p\n+        $content= \n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417237399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,13 @@\n function addmessage(){\n \n     require_once(dirname(__FILE__,3) .'/Model/message.php');\n     \n-    $content= $_POST['content'];\n+\n     \n-    if(isset($_POST['content']){\n+    if(isset($_POST['content'])){\n \n-        $content= \n+        $content= $_POST['content'];\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417270541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,12 @@\n     \n     if(isset($_POST['content'])){\n \n         $content= $_POST['content'];\n+\n+\n     }\n+    else \n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417277259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n         $content= $_POST['content'];\n \n \n     }\n-    else \n+    else {\n+        \n+    }\n \n \n           \n \n"
+                },
+                {
+                    "date": 1675417290635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n \n     }\n     else {\n-        \n+        die(\"Please enter a messa)\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417306928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n \n     }\n     else {\n-        die(\"Please enter a messa)\n+        die(\"Please enter a message\");\n     }\n \n \n           \n"
+                },
+                {
+                    "date": 1675417322345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,33 +1,32 @@\n <?php\n- \n+\n function getMessages()\n {\n-    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');                     \n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n+    require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');\n+    require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function addmessage(){\n+function addmessage()\n+{\n \n-    require_once(dirname(__FILE__,3) .'/Model/message.php');\n-    \n+    require_once(dirname(__FILE__, 3) . '/Model/message.php');\n \n-    \n-    if(isset($_POST['content'])){\n \n-        $content= $_POST['content'];\n \n+    if (isset($_POST['content'])) {\n \n-    }\n-    else {\n+        $content = $_POST['content'];\n+\n+\n+    } else {\n         die(\"Please enter a message\");\n     }\n \n \n-          \n \n \n \n-}\n-    \n+\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675417333639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,9 @@\n \n }\n function addmessage()\n {\n-\n-    require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-\n-\n-\n+     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     if (isset($_POST['content'])) {\n \n         $content = $_POST['content'];\n \n"
+                },
+                {
+                    "date": 1675417341499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,18 +11,15 @@\n function addmessage()\n {\n      require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     if (isset($_POST['content'])) {\n-\n         $content = $_POST['content'];\n-\n-\n     } else {\n         die(\"Please enter a message\");\n     }\n+ \n \n \n \n \n \n-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675417529228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n- \n+   $message\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417535260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-   $message\n+   $message= getMsg();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417541724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-   $message= getMsg();\n+   $message= AddMsg();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417555773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-   $message= AddMsg();\n+   $message= addMsg();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417581230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-   $message= addMsg();\n+   $\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417587587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-   $\n+     $\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417596297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-     $\n+     $addmsg= \n \n \n \n \n"
+                },
+                {
+                    "date": 1675417604466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-     $addmsg= \n+     $addmsg=  add\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417609591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,10 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-     $addmsg=  add\n+     $addmsg=  addMsg();\n+     \n \n \n \n \n"
+                },
+                {
+                    "date": 1675417766002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,13 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n+}\n      $addmsg=  addMsg();\n-     \n \n \n \n \n \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675417780447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-}\n+\n      $addmsg=  addMsg();\n \n \n \n"
+                },
+                {
+                    "date": 1675417814508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n+    \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675417822794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,15 +9,14 @@\n \n }\n function addmessage()\n {\n-    \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-\n+    require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      $addmsg=  addMsg();\n \n \n \n"
+                },
+                {
+                    "date": 1675417880164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     } else {\n         die(\"Please enter a message\");\n     }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $addmsg=  addMsg();\n+     $addmsg= addMsg();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417945604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     } else {\n         die(\"Please enter a message\");\n     }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $addmsg= addMsg();\n+     $addmsg = addMsg($);\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417953648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     } else {\n         die(\"Please enter a message\");\n     }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $addmsg = addMsg($);\n+     $addmsg = addMsg( string $messages);\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417963224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     } else {\n         die(\"Please enter a message\");\n     }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $addmsg = addMsg( string $messages);\n+     $addmsg = addMsg( $messages);\n \n \n \n \n"
+                },
+                {
+                    "date": 1675417987717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,11 @@\n     } else {\n         die(\"Please enter a message\");\n     }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $addmsg = addMsg( $messages);\n+    \n \n \n \n \n \n-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675418017911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,15 @@\n \n }\n function addmessage()\n {\n+    \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n+\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     \n \n \n"
+                },
+                {
+                    "date": 1675418033939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,17 +9,18 @@\n \n }\n function addmessage()\n {\n-    \n+\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     \n+    $messag\n \n \n \n \n"
+                },
+                {
+                    "date": 1675418039190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     \n-    $messag\n+    \n \n \n \n \n"
+                },
+                {
+                    "date": 1675418055057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-\n+    \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     \n     \n \n"
+                },
+                {
+                    "date": 1675418068393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,14 +15,12 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-    \n+}\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n     \n-    \n \n \n \n \n \n\\ No newline at end of file\n-}\n"
+                },
+                {
+                    "date": 1675418074182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n         die(\"Please enter a message\");\n     }\n }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    \n+    $addmsg= \n \n \n \n \n+\n"
+                },
+                {
+                    "date": 1675418082601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $addmsg= \n+$addmsg = addMsg();\n \n \n \n \n"
+                },
+                {
+                    "date": 1675418089014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n         die(\"Please enter a message\");\n     }\n }\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-$addmsg = addMsg();\n \n \n \n \n \n+\n"
+                },
+                {
+                    "date": 1675418178521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,12 @@\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n-}\n+\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n \n \n \n+}\n \n \n-\n"
+                },
+                {
+                    "date": 1675418188496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,11 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n+    \n+    addmsg\n \n \n-\n }\n \n \n"
+                },
+                {
+                    "date": 1675418197394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,11 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    \n-    addmsg\n \n+    addMsg();\n \n+\n }\n \n \n"
+                },
+                {
+                    "date": 1675418216915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-\n     addMsg();\n \n \n }\n"
+                },
+                {
+                    "date": 1675418230154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    addMsg();\n+     $potaddMsg();\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418235731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $potaddMsg();\n+     $good\n+     addMsg();\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418244206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $good\n+     $good=\n      addMsg();\n \n \n }\n"
+                },
+                {
+                    "date": 1675418249643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $good=\n-     addMsg();\n+     $good = addMsg();\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418264332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $good = addMsg();\n+     addMsg();\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418728433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     addMsg();\n+     $success =  addMsg();\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418738657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $success =  addMsg();\n+     ;\n \n \n }\n \n"
+                },
+                {
+                    "date": 1675418748628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     ;\n+     \n+    $messages = getMsg();\n \n-\n }\n \n \n"
+                },
+                {
+                    "date": 1675418755896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n-    $messages = getMsg();\n+    $messages = AddMsg();\n \n }\n \n \n"
+                },
+                {
+                    "date": 1675418880331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,18 +9,18 @@\n \n }\n function addmessage()\n {\n-\n+    \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n-    $messages = AddMsg();\n+  \n \n }\n \n \n"
+                },
+                {
+                    "date": 1675418887139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    \n+    if(isset)\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418893121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset)\n+    if(isset_)\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418900698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset_)\n+    if(isset())\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418907109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset())\n+    if(isset($_POST))\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418914669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST))\n+    if(isset($_POST)['su'])\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418922846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST)['su'])\n+    if(isset($_POST)['submit']){}\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418928700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST)['submit']){}\n+    if(isset($_POST)['submit']){\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n@@ -21,6 +21,7 @@\n      \n   \n \n }\n+}\n \n \n"
+                },
+                {
+                    "date": 1675418940060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST)['submit']){\n+    if(isset($_POST['submit']){\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675418952176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,7 +21,7 @@\n      \n   \n \n }\n-}\n \n \n+\n"
+                },
+                {
+                    "date": 1675418958260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,8 @@\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n   \n \n-}\n+}}\n \n \n \n"
+                },
+                {
+                    "date": 1675418963914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n }\n function addmessage()\n {\n     if(isset($_POST['submit']){\n+        \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n@@ -20,8 +21,9 @@\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n   \n \n-}}\n+}\n+}\n \n \n \n"
+                },
+                {
+                    "date": 1675418973813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST['submit']){\n-        \n+    if(isset($_POST)['submit']){\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n@@ -22,8 +21,7 @@\n      \n   \n \n }\n-}\n \n \n \n"
+                },
+                {
+                    "date": 1675418983580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST)['submit']){\n+    if(isset($_POST['submit']){\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n@@ -21,7 +21,8 @@\n      \n   \n \n }\n+}\n \n \n \n"
+                },
+                {
+                    "date": 1675418995949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST['submit']){\n+    if(isset($_POST['submit'])){\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675419239719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     \n+     $msg\n   \n \n }\n }\n"
+                },
+                {
+                    "date": 1675419250424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $msg\n+     $msg= add\n   \n \n }\n }\n"
+                },
+                {
+                    "date": 1675419290478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     $msg= add\n+        \n   \n \n }\n }\n"
+                },
+                {
+                    "date": 1675419335158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n }\n function addmessage()\n {\n-    if(isset($_POST['submit'])){\n+   \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675419530366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,12 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-        \n+    get   \n   \n \n }\n-}\n \n \n \n+\n"
+                },
+                {
+                    "date": 1675419538225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    get   \n+    addMsg();   \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675419545820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    addMsg();   \n+    addMsg( $content);   \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675419559036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    addMsg( $content);   \n+    addMsg( string $content);   \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675419566255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    addMsg( string $content);   \n+   \n+    addMsg();   \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675419626102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n    \n-    addMsg();   \n+    a  \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675419631669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n    \n-    a  \n+    \n   \n \n }\n \n"
+                },
+                {
+                    "date": 1675421425464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-   \n+     \n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421464458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n+    $\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421477309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n-    $\n+    $success= \n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421485340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n-    $success= \n+    $success= createMessage();\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421494582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n+    if\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421531200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n-    if\n+    if()\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421539206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n-    if()\n+    if($success )\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421550058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n-    if($success )\n+    if($success){\n+        \"echo \"\n+    }\n     \n   \n \n }\n"
+                },
+                {
+                    "date": 1675421555878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n     if($success){\n-        \"echo \"\n+        \"echo \n     }\n     \n   \n \n"
+                },
+                {
+                    "date": 1675421562365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n      \n     $success= createMessage();\n     if($success){\n-        \"echo \n+        echo \"hello world\";\n     }\n     \n   \n \n"
+                },
+                {
+                    "date": 1675421624162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-     \n+    \n     $success= createMessage();\n     if($success){\n         echo \"hello world\";\n     }\n"
+                },
+                {
+                    "date": 1675421638912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    \n-    $success= createMessage();\n+\n+    $success= ();\n     if($success){\n         echo \"hello world\";\n     }\n     \n"
+                },
+                {
+                    "date": 1675421653818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,14 +18,9 @@\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n \n-    $success= ();\n-    if($success){\n-        echo \"hello world\";\n-    }\n-    \n-  \n+   \n \n }\n \n \n"
+                },
+                {
+                    "date": 1675421718124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n \n }\n function addmessage()\n {\n-   \n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n     } else {\n         die(\"Please enter a message\");\n"
+                },
+                {
+                    "date": 1675421758452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-\n+    $\n    \n \n }\n \n"
+                },
+                {
+                    "date": 1675421765296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $\n+    $msg = \n    \n \n }\n \n"
+                },
+                {
+                    "date": 1675421772806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $msg = \n+    $msg = add\n    \n \n }\n \n"
+                },
+                {
+                    "date": 1675436544698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $msg = add\n+    $msg = addMsg()vo;\n+    \n    \n \n }\n \n"
+                },
+                {
+                    "date": 1675436558061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $msg = addMsg()vo;\n+    $msg = addMsg() ;\n     \n    \n \n }\n"
+                },
+                {
+                    "date": 1675436563278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $msg = addMsg() ;\n+ $msg = addMsg() ;\n     \n    \n \n }\n"
+                },
+                {
+                    "date": 1675436570265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n- $msg = addMsg() ;\n+    $msg= \n     \n    \n \n }\n"
+                },
+                {
+                    "date": 1675436575759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         die(\"Please enter a message\");\n     }\n \n     require_once(dirname(__FILE__, 3) . '/Model/message.php');\n-    $msg= get\n+    $msg= getMsg();\n     \n    \n \n }\n"
+                },
+                {
+                    "date": 1675932469561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     $messages = getMsg();\n     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');\n \n }\n-function addmessage( string $content )\n+function addmessage( string $content ,)\n {\n     if (isset($_POST['content'])) {\n         $content = $_POST['content'];\n         \n"
+                }
+            ],
+            "date": 1675326982656,
+            "name": "Commit-0",
+            "content": "<?php\nrequire_once(dirname(__FILE__,3).'/Model/message.php');\n\nfunction getMessage()\n{\n     = getMessage();\n}\n"
+        }
+    ]
+}

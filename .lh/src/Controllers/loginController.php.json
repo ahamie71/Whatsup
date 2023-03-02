@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/Controllers/loginController.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1675955674097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675956088566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<\n\\ No newline at end of file\n+<?php\n+function \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956094262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-function \n\\ No newline at end of file\n+function conne\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956103966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,7 @@\n <?php\n-function conne\n\\ No newline at end of file\n+function connection(){\n+\n+\n+\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956117985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n <?php\n function connection(){\n \n+    if (isset($_POST['name']) && isset($_POST['password'])) {\n+        $name = $_POST['name'];\n+        $password = $_POST['password'];\n \n \n-    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956124081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,13 @@\n <?php\n-function connection(){\n+function connection()\n+{\n \n     if (isset($_POST['name']) && isset($_POST['password'])) {\n         $name = $_POST['name'];\n         $password = $_POST['password'];\n \n \n+    }\n+\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956131188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,10 @@\n         $password = $_POST['password'];\n \n \n     }\n+    else{\n+        \n+    }\n \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956138180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n \n     }\n     else{\n-        \n+        echo \"Please enter a \"\n     }\n \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956146394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n \n     }\n     else{\n-        echo \"Please enter a \"\n+        echo \"Please enter a name and password\";\n     }\n+     \n \n-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956152058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n     }\n     else{\n         echo \"Please enter a name and password\";\n     }\n-     \n+    \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956160124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n \n     if (isset($_POST['name']) && isset($_POST['password'])) {\n         $name = $_POST['name'];\n         $password = $_POST['password'];\n+     \n \n-\n     }\n     else{\n         echo \"Please enter a name and password\";\n     }\n"
+                },
+                {
+                    "date": 1675956192855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,13 +4,13 @@\n \n     if (isset($_POST['name']) && isset($_POST['password'])) {\n         $name = $_POST['name'];\n         $password = $_POST['password'];\n-     \n+         \n \n     }\n     else{\n         echo \"Please enter a name and password\";\n     }\n-    \n+      \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675956227866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n     }\n     else{\n         echo \"Please enter a name and password\";\n     }\n-      login\n+      login()\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676021369758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n \n session_start();\n if (isset($_SESSION['user'])) {\n-    header(loc);\n+    header(loca);\n }\n \n function connection()\n {\n"
+                }
+            ],
+            "date": 1675955674097,
+            "name": "Commit-0",
+            "content": "<"
+        }
+    ]
+}

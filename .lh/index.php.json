@@ -1,0 +1,314 @@
+{
+    "sourceFile": "index.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 74,
+            "patches": [
+                {
+                    "date": 1675264300756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675264352344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<\n+<?php\n+if\n"
+                },
+                {
+                    "date": 1675264359910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if\n+if(isset())\n"
+                },
+                {
+                    "date": 1675264365850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if(isset())\n+if(isset($_G))\n"
+                },
+                {
+                    "date": 1675264395684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if(isset($_G))\n+if(isset($_GET['action']) )\n"
+                },
+                {
+                    "date": 1675264401965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if(isset($_GET['action']) )\n+if(isset($_GET['action']) && $_GET['action'] == ')\n"
+                },
+                {
+                    "date": 1675264410281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if(isset($_GET['action']) && $_GET['action'] == ')\n+if(isset($_GET['action']) && $_GET['action'] !== ')\n"
+                },
+                {
+                    "date": 1675264417856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <?php\n-if(isset($_GET['action']) && $_GET['action'] !== ')\n+if(isset($_GET['action']) && $_GET['action'] !== ''))\n"
+                },
+                {
+                    "date": 1675264432579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n <?php\n-if(isset($_GET['action']) && $_GET['action'] !== ''))\n+if(isset($_GET['action']) && $_GET['action'] !== ''){\n+\n+\n+}\n"
+                },
+                {
+                    "date": 1675264438562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n+    if\n \n }\n"
+                },
+                {
+                    "date": 1675264449557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if\n+    if($)\n \n }\n"
+                },
+                {
+                    "date": 1675264455393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($)\n+    if($_GET[])\n \n }\n"
+                },
+                {
+                    "date": 1675264460555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET[])\n+    if($_GET['action']=== )\n \n }\n"
+                },
+                {
+                    "date": 1675264468052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET['action']=== )\n+    if($_GET['action']=== '')\n \n }\n"
+                },
+                {
+                    "date": 1675264486751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET['action']=== '')\n+    if($_GET['action']=== 'message')\n \n }\n"
+                },
+                {
+                    "date": 1675264493122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET['action']=== 'message')\n+    if($_GET['action']=== 'get')\n \n }\n"
+                },
+                {
+                    "date": 1675264502557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET['action']=== 'get')\n+    if($_GET['action']=== 'getMessage')\n \n }\n"
+                },
+                {
+                    "date": 1675264521468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n-    if($_GET['action']=== 'getMessage')\n+    if($_GET['action']== 'getMessages'){\n \n }\n"
+                },
+                {
+                    "date": 1675264529061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,7 @@\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n     if($_GET['action']== 'getMessages'){\n \n+        get\n+\n }\n"
+                },
+                {
+                    "date": 1675264534491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n     if($_GET['action']== 'getMessages'){\n \n-        get\n+        getMessage()\n \n }\n"
+                },
+                {
+                    "date": 1675264557624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n if(isset($_GET['action']) && $_GET['action'] !== ''){\n \n     if($_GET['action']== 'getMessages'){\n \n-        getMessage()\n+        getMessage();\n \n }\n+\n"
+                },
+                {
+                    "date": 1675264649877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <?php\n-if(isset($_GET['action']) && $_GET['action'] !== ''){\n+if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if($_GET['action']== 'getMessages'){\n+    if ($_GET['action'] == 'getMessages') {\n \n         getMessage();\n \n+    }\n+    \n }\n-\n"
+                },
+                {
+                    "date": 1675264658768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,8 @@\n \n         getMessage();\n \n     }\n-    \n+\n }\n+else\n+\n"
+                },
+                {
+                    "date": 1675264665550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,8 @@\n \n     }\n \n }\n-else\n+else{\n+    echo\n+}\n \n"
+                },
+                {
+                    "date": 1675264670609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n     }\n \n }\n else{\n-    echo\n+    echo \"hello\"\n }\n \n"
+                },
+                {
+                    "date": 1675264685186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,9 @@\n \n         getMessage();\n \n     }\n-\n }\n else{\n-    echo \"hello\"\n+    echo \"hello\";\n }\n \n"
+                },
+                {
+                    "date": 1675264830692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == 'getMessages') {\n+    if ($_GET['action'] == '') {\n \n         getMessage();\n \n     }\n"
+                },
+                {
+                    "date": 1675264837888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == '') {\n+    if ($_GET['action'] == 'Tchat') {\n \n         getMessage();\n \n     }\n"
+                },
+                {
+                    "date": 1675264883636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == 'Tchat') {\n+    if ($_GET['action'] == 'chat') {\n \n         getMessage();\n \n     }\n"
+                },
+                {
+                    "date": 1675264892791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n <?php\n+\n+\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n"
+                },
+                {
+                    "date": 1675264945439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <?php\n+require_once('src/controllers/post.php');\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675264955882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once('src/controllers/post.php');\n+require_once('src/controllers/');\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675264965276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once('src/controllers/');\n+require_once(dirname\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675264972974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname\n+require_once(dirname(__FILE__,) .\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675264978609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,) .\n+require_once(dirname(__FILE__, 2).\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675264984014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__, 2).\n+require_once(dirname(__FILE__, 2).'\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265058882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__, 2).'\n+require_once(\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265187396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(\n+require_once()\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265209684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once()\n+require_once(dirname(__FILE__,2) .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265219458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2) .)\n+require_once(dirname(__FILE__,2)'' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265224581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2)'' .)\n+require_once(dirname(__FILE__,2)'/C' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265230191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2)'/C' .)\n+require_once(dirname(__FILE__,2)'/Controllers/' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265243560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2)'/Controllers/' .)\n+require_once(dirname(__FILE__,2)'/Controllers/DisplayMessage' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265249052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2)'/Controllers/DisplayMessage' .)\n+require_once(dirname(__FILE__,2)'/Controllers/DisplayMessageController.php' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265259675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2)'/Controllers/DisplayMessageController.php' .)\n+require_once(dirname(__FILE__,2).'/Controllers/DisplayMessageController.php' .)\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265265835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2).'/Controllers/DisplayMessageController.php' .)\n+require_once(dirname(__FILE__,2).'/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265287657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2).'/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,2).'src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265302009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2).'src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265311077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,2).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265319470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,2).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265327908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,1).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265334690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,1).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265355886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,3).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265368253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,3).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265402730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__,).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__).'/src/Controllers/DisplayMessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675265822740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n-        getMessage();\n \n     }\n }\n else{\n"
+                },
+                {
+                    "date": 1675265864415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/DisplayMessageController.php' );\n+echo \n \n-\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n"
+                },
+                {
+                    "date": 1675265873302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/DisplayMessageController.php' );\n-echo \n \n+\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n"
+                },
+                {
+                    "date": 1675265923272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n+        getMessage();\n \n     }\n }\n else{\n"
+                },
+                {
+                    "date": 1675265985001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <?php\n-require_once(dirname(__FILE__).'/src/Controllers/DisplayMessageController.php' );\n+require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n"
+                },
+                {
+                    "date": 1675266810454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n \n \n+\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n"
+                },
+                {
+                    "date": 1675266967635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \n     }\n }\n else{\n-    echo \"hello\";\n+    echo \"homepage\";\n }\n \n"
+                },
+                {
+                    "date": 1675267030266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n \n \n \n+\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'chat') {\n \n"
+                },
+                {
+                    "date": 1675267036955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n+require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n \n \n \n \n"
+                },
+                {
+                    "date": 1675267044116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n-require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n+require_once(dirname(__FILE__).'/src/Controllers/homepage.php' );\n \n \n \n \n"
+                },
+                {
+                    "date": 1675267049862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <?php\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n-require_once(dirname(__FILE__).'/src/Controllers/homepage.php' );\n+require_once(dirname(__FILE__).'/src/Controllers/homepageController.php' );\n \n \n \n \n"
+                },
+                {
+                    "date": 1675267076668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == 'chat') {\n+    if ($_GET['action'] == '') {\n \n         getMessage();\n \n     }\n"
+                },
+                {
+                    "date": 1675267115108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == '') {\n+    if ($_GET['action'] == 'homepage') {\n \n-        getMessage();\n+        homepage();\n \n     }\n }\n else{\n"
+                },
+                {
+                    "date": 1675267564712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == 'homepage') {\n+    if ($_GET['action'] == 'tchat') {\n \n         homepage();\n \n     }\n"
+                },
+                {
+                    "date": 1675267572062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,8 @@\n require_once(dirname(__FILE__).'/src/Controllers/MessageController.php' );\n require_once(dirname(__FILE__).'/src/Controllers/homepageController.php' );\n \n \n-\n-\n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n     if ($_GET['action'] == 'tchat') {\n \n"
+                },
+                {
+                    "date": 1675267764946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n \n if (isset($_GET['action']) && $_GET['action'] !== '') {\n \n-    if ($_GET['action'] == 'tchat') {\n+    if ($_GET['action'] == '') {\n \n         homepage();\n \n     }\n"
+                },
+                {
+                    "date": 1675267794842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,6 @@\n \n     }\n }\n else{\n-    echo \"homepage\";\n-}\n+    home\n \n"
+                },
+                {
+                    "date": 1675267800665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n \n     }\n }\n else{\n-    home\n+    homepage();\n \n"
+                },
+                {
+                    "date": 1675267828856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n \n     }\n }\n else{\n-    hom\n+    home\n \n"
+                },
+                {
+                    "date": 1675330198820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n if (isset($_GET['action'])) {\n     if ($_GET['action'] == '') {\n        \n-        getMessages\n+        getMessages()\n       \n     \n } else {\n     homepage();\n"
+                }
+            ],
+            "date": 1675264300756,
+            "name": "Commit-0",
+            "content": "<\n"
+        }
+    ]
+}
