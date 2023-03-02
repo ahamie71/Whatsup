@@ -1,6 +1,0 @@
-<?php
-
-funtion logout(){
-
-    
-}
