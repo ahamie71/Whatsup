@@ -1,8 +1,14 @@
 <?php
- include('database.php')
-  
+function connectionDataBase()
+{
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
 ;
-function getMsgs()
+function getM()
 {
     $db = connectionDataBase();
     $stmt = $db->prepare("SELECT * FROM messages ");
@@ -47,7 +53,7 @@ function getMessageById($id)
 
 }
 
-function editMsg($content, $id)
+function EditMsg($content, $id)
 {
     $Connect = connectionDataBase();
     $update = $Connect->prepare("UPDATE  messages SET content = :content WHERE id = $id");
@@ -59,7 +65,7 @@ function editMsg($content, $id)
 
 }
 
-function deleteMsg($id)
+function DeleteMsg($id)
 {
     $Connect = connectionDataBase();
     $sql = "DELETE FROM messages WHERE id= $id";

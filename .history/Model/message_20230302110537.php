@@ -1,5 +1,5 @@
 <?php
- include('database.php')
+  require_once(dirname(__FILE__, 3) . '/Model/database.php');
   
 ;
 function getMsgs()

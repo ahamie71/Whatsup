@@ -1,10 +1,10 @@
 <?php
- include('database.php')
+  require_once(dirname(__FILE__, 3) . '/Model/database.php');
   
 ;
 function getMsgs()
 {
-    $db = connectionDataBase();
+    
     $stmt = $db->prepare("SELECT * FROM messages ");
     $stmt->execute();
     $msgs = [];

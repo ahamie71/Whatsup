@@ -23,7 +23,7 @@ function connection()
     }
 }
 
-function logout()
+function Logout()
 {
     session_destroy();
     header('location:index.php?action=Home');

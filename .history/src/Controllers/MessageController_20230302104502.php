@@ -4,10 +4,10 @@ function getMessages()
 {
     require_once(dirname(__FILE__, 3) . '/templates/navbar.phtml');
     require_once(dirname(__FILE__, 3) . '/Model/message.php');
-    $messages = getMsgs();
+    $messages = getM();
     require_once(dirname(__FILE__, 3) . '/templates/displayMessage.phtml');
 }
-function addMessage()
+function AddMessage()
 {   
     if (isset($_POST['content'])) {
         $content = $_POST['content'];
@@ -23,7 +23,7 @@ function addMessage()
 
 }
 
-function updateMessage()
+function UpdateMsg()
 {
 
 
@@ -33,7 +33,7 @@ function updateMessage()
         require_once(dirname(__FILE__, 3) . '/Model/message.php');
         $message = getMessageById($_GET['messageid']);
         if ($_SESSION['user']['id'] == $message['user_id']) {
-            editMsg($content, $id);
+            EditMsg($content, $id);
             header("location:index.php?action=Discuss");
         } else {
             header("location:index.php?action=Discuss");
@@ -48,7 +48,7 @@ function updateMessage()
     require_once(dirname(__FILE__, 3) . '/templates/edit.phtml');
 }
 
-function deleteMessage()
+function Delete()
 {
 
     $id = $_GET['messageid'];

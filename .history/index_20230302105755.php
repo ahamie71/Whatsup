@@ -22,22 +22,22 @@ if (isset($_GET['action'])) {
         logout();
     }
     if ($_GET['action'] == 'Register') {
-        require_once(dirname(__FILE__) . '/src/Controllers/registrationcontroller.php');
+        require_once(dirname(__FILE__) . '/src/Controllers/registrationController.php');
         registration();
     }
     if ($_GET['action'] == 'Connect') {
-        require_once(dirname(__FILE__) . '/src/Controllers/logincontroller.php');
+        require_once(dirname(__FILE__) . '/src/Controllers/loginController.php');
         connection();
     }
 
     if ($_GET['action'] == 'Home') {
-        require_once(dirname(__FILE__) . '/src/Controllers/homepagecontroller.php');
+        require_once(dirname(__FILE__) . '/src/Controllers/homepageController.php');
         homepage();
 
     }
 } else {
-    require_once(dirname(__FILE__) . '/src/Controllers/homepagecontroller.php');
-    homepage();
+    require_once(dirname(__FILE__) . '/src/Controllers/homepageController.php');
+    Homepage();
 }
 
 //index.php va nous rediriger vers la page home page

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('database.php');
+inc' database.php');
 function registerUser(string $name, string $password, string $email, string $role)
 {
     $con = connectionDataBase();
