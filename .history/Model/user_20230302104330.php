@@ -1,6 +1,14 @@
 <?php
 session_start();
-include('database.php');
+function connectionDataBase()
+{
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
+;
 function registerUser(string $name, string $password, string $email, string $role)
 {
     $con = connectionDataBase();

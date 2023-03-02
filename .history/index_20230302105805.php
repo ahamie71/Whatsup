@@ -31,13 +31,13 @@ if (isset($_GET['action'])) {
     }
 
     if ($_GET['action'] == 'Home') {
-        require_once(dirname(__FILE__) . '/src/Controllers/homepagecontroller.php');
+        require_once(dirname(__FILE__) . '/src/Controllers/homepageController.php');
         homepage();
 
     }
 } else {
-    require_once(dirname(__FILE__) . '/src/Controllers/homepagecontroller.php');
-    homepage();
+    require_once(dirname(__FILE__) . '/src/Controllers/homepageController.php');
+    Homepage();
 }
 
 //index.php va nous rediriger vers la page home page

@@ -36,8 +36,8 @@ if (isset($_GET['action'])) {
 
     }
 } else {
-    require_once(dirname(__FILE__) . '/src/Controllers/homepagecontroller.php');
-    homepage();
+    require_once(dirname(__FILE__) . '/src/Controllers/homepageController.php');
+    Homepage();
 }
 
 //index.php va nous rediriger vers la page home page

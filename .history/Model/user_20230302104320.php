@@ -1,6 +1,14 @@
 <?php
 session_start();
-include('database.php');
+function ConnectionDataBase()
+{
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
+;
 function registerUser(string $name, string $password, string $email, string $role)
 {
     $con = connectionDataBase();
@@ -16,7 +24,7 @@ function registerUser(string $name, string $password, string $email, string $rol
 }
 function getUserByName($name)
 {
-    $db = connectionDataBase();
+    $db = ConnectionDataBase();
     $req = "SELECT * FROM  user WHERE name = '$name'";
     $userStatement = $db->prepare($req);
     $userStatement->execute();

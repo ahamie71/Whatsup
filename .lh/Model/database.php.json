@@ -1,0 +1,26 @@
+{
+    "sourceFile": "Model/database.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1677750019221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677750026033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n+<?php\n+\n+\n function connectionDataBase()\n {\n     try {\n         return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');\n"
+                },
+                {
+                    "date": 1677750031546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n <?php\n \n-\n function connectionDataBase()\n {\n     try {\n         return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');\n     } catch (Exception $e) {\n         die('Erreur : ' . $e->getMessage());\n     }\n-}\n\\ No newline at end of file\n+}\n"
+                }
+            ],
+            "date": 1677750019221,
+            "name": "Commit-0",
+            "content": "function connectionDataBase()\n{\n    try {\n        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');\n    } catch (Exception $e) {\n        die('Erreur : ' . $e->getMessage());\n    }\n}"
+        }
+    ]
+}

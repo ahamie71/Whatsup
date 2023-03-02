@@ -1,9 +1,17 @@
 <?php
 session_start();
-include('database.php');
-function registerUser(string $name, string $password, string $email, string $role)
+function ConnectionDataBase()
 {
-    $con = connectionDataBase();
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
+;
+function egister(string $name, string $password, string $email, string $role)
+{
+    $con = ConnectionDataBase();
     $req = $con->prepare("INSERT INTO user (name,Email,password,role) VALUES (:name,:Email,:password,:role)");
     $req->execute(
         array(
@@ -16,7 +24,7 @@ function registerUser(string $name, string $password, string $email, string $rol
 }
 function getUserByName($name)
 {
-    $db = connectionDataBase();
+    $db = ConnectionDataBase();
     $req = "SELECT * FROM  user WHERE name = '$name'";
     $userStatement = $db->prepare($req);
     $userStatement->execute();

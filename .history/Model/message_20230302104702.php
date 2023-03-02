@@ -1,8 +1,14 @@
 <?php
- include('database.php')
-  
+function connectionDataBase()
+{
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
 ;
-function getMsgs()
+function getMessages()
 {
     $db = connectionDataBase();
     $stmt = $db->prepare("SELECT * FROM messages ");

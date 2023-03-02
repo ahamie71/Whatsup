@@ -1,8 +1,14 @@
 <?php
- include('database.php')
-  
+function connectionDataBase()
+{
+    try {
+        return new PDO('mysql:host=localhost;dbname=train;charset=utf8', 'root', 'root');
+    } catch (Exception $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+}
 ;
-function getMsgs()
+function getMsg()
 {
     $db = connectionDataBase();
     $stmt = $db->prepare("SELECT * FROM messages ");
@@ -24,7 +30,7 @@ function getMsgs()
 function addMsg(string $content, string $createdAt, $user_id, )
 {
 
-    $con = connectionDataBase();
+    $con = ConnectionDataBase();
     $statement = $con->prepare("INSERT INTO messages (content,createdAt,user_id) VALUES (:content,:createdAt,:user_id)");
     $statement->execute(
         array(
@@ -38,7 +44,7 @@ function addMsg(string $content, string $createdAt, $user_id, )
 function getMessageById($id)
 {
 
-    $Connect = connectionDataBase();
+    $Connect = ConnectionDataBase();
     $sql = "SELECT * FROM messages WHERE id= $id";
     $search = $Connect->prepare($sql);
     $search->execute();
@@ -47,9 +53,9 @@ function getMessageById($id)
 
 }
 
-function editMsg($content, $id)
+function EditMsg($content, $id)
 {
-    $Connect = connectionDataBase();
+    $Connect = ConnectionDataBase();
     $update = $Connect->prepare("UPDATE  messages SET content = :content WHERE id = $id");
     $update->execute(
         array(
@@ -59,9 +65,9 @@ function editMsg($content, $id)
 
 }
 
-function deleteMsg($id)
+function DeleteMsg($id)
 {
-    $Connect = connectionDataBase();
+    $Connect = ConnectionDataBase();
     $sql = "DELETE FROM messages WHERE id= $id";
     $delet = $Connect->prepare($sql);
     $delet->execute();
