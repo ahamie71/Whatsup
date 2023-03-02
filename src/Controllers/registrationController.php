@@ -11,13 +11,13 @@ function registration()
         $role = "user";
         if ($password === $password2 && strlen($password) >= 6 && preg_match("/[a-z][0-9]/", $password)) {
             $pass = password_hash($_POST['password'], PASSWORD_ARGON2ID);
-            require_once(dirname(__FILE__, 3) . '/Model/user.php');
+            require_once(dirname(__FILE__, 2) . '/Model/user.php');
             registerUser($name, $pass, $email, $role);
             header("location:index.php?action=Connect");
             exit();
         }
     } else {
-        require_once(dirname(__FILE__, 3) . '/templates/registration.phtml');
+        require_once(dirname(__FILE__, 2) . '/templates/registration.phtml');
 
     }
 }
